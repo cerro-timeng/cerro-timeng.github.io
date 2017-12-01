@@ -5,7 +5,7 @@
 <head>
 
 
-    <title>Recruitment Form | Cerro-Timeng tes</title>
+    <title>Recruitment Form | Cerro</title>
 
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -153,7 +153,14 @@ END - Mobile Menu
                                         <h6 class="element-header">Data Pelamar</h6>
                                         <div class="element-box">
                                             <form>
-                                                <h5 class="form-header">Informasi Dasar</h5>
+                                                <div class="row">
+                                                    <div class="col-lg-7">
+                                                        <h5 class="form-header">Informasi Dasar</h5>
+                                                    </div>
+                                                    <div class="col-lg-5">
+                                                        <button class="btn btn-primary" type="reset"> Reset</button>
+                                                    </div>
+                                                </div>
                                                 <legend><span>Dasar</span></legend>
                                                 <div class="row">
                                                     <div class="col-sm-6">
@@ -285,7 +292,7 @@ END - Mobile Menu
                                                   <option>East Java</option>
                                                   <option>Jakarta</option>
                                               </select>
-                                          </div>  
+                                          </div> 
                                       </div>
                                   </div>
                               </fieldset>
@@ -298,7 +305,14 @@ END - Mobile Menu
                  <h6 class="element-header">Data Pelamar</h6>
                  <div class="element-box">
                     <form>
-                        <h5 class="form-header">Informasi Pelengkap</h5>
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <h5 class="form-header">Informasi Pelengkap</h5>
+                            </div>
+                            <div class="col-lg-5">
+                                <button class="btn btn-primary" type="reset"> Reset</button>
+                            </div>
+                        </div>
                         <legend><span>Pratinjau Tes</span></legend>
                         <div class="form-group">
                             <label> Gaji yang Diharapkan</label>
@@ -376,7 +390,7 @@ END - Mobile Menu
                 <label>Catatan Interview</label>
                 <textarea class="form-control" rows="10" placeholder="Catatan mengenai hasil interview"></textarea>
             </div>
-        </fieldset>
+        </fieldset> 
     </form>
 </div>
 </div>
@@ -390,12 +404,15 @@ END - Mobile Menu
             <select class="form-control mb-2 mr-sm-2 mb-sm-0">
              <option disabled="" selected="">Select a degree</option>
              <option>SD</option>
-             <option>SMP</option>
-             <option>SMA</option>
+             <option>SMP/Sederajat</option>
+             <option>SMA/SMK Sederajat</option>
              <option>Diploma</option>
              <option>S1</option>
              <option>S2</option>
+             <option>S3</option>
          </select>
+         <label class="sr-only"> City</label>
+         <input class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="City" type="text">
          <label class="sr-only"> School Name</label>
          <input class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="School Name" type="text">
          <label class="sr-only"> Major</label>
